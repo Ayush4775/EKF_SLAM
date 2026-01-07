@@ -24,22 +24,15 @@ The system jointly estimates:
 
 - The **robot pose**  
   \[
-  \mathbf{x}_r = [x, y, \theta]
+  x_r = [x, y, theta]
   \]
 
 - The positions of an **unknown and dynamically growing set of landmarks**  
   \[
-  \mathbf{x}_{l_i} = [l_{x_i}, l_{y_i}]
+  x_l_i = [l_x_i, l_y_i]
   \]
 
-The full EKF-SLAM state vector is:
-
-\[
-\mathbf{x} =
-\begin{bmatrix}
-x & y & \theta & l_{x_1} & l_{y_1} & \dots
-\end{bmatrix}^T
-\]
+The full EKF-SLAM state vector has the pose followed by the landmarks in one large vector
 
 The covariance matrix grows consistently as new landmarks are discovered.
 
