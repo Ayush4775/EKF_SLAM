@@ -9,7 +9,7 @@ This repository contains a **complete Extended Kalman Filter SLAM (EKF-SLAM) sys
 - A custom simulation environment for validation
 - Visualization of results
 
-⚠️ **Important**:  
+**Important**:  
 This project was written **entirely by me, from scratch**.  
 No SLAM libraries, EKF libraries, robotics frameworks, or third-party filtering code were used.  
 All mathematics, linearization, matrix construction, and system logic were derived, implemented, and debugged manually.
