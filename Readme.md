@@ -38,7 +38,10 @@ The covariance matrix grows consistently as new landmarks are discovered.
 
 ---
 
+## Results
 
+![EKF SLAM Results](src/ekf_slam_result.png)
+*Figure: EKF-SLAM trajectory estimation showing the true path, estimated path, and detected landmarks.*
 
 A **figure showing the EKF trajectory, true trajectory, and landmarks is included** in this repository.
 
